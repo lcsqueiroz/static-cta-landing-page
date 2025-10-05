@@ -1,0 +1,24 @@
+:root {
+  /* CORES */
+  --color-text-gradient: linear-gradient(
+    90deg,
+    rgba(235, 209, 109, 1) 0%,
+    rgba(216, 157, 75, 1) 100%
+  );
+
+  /* TEXTO */
+  --color-text-primary: #f0f0f0;
+  --color-text-secundary: #d2d2d2;
+
+  /* BACKGROUND */
+  --color-background-primary: #191919;
+
+  /* FONT SIZE */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-s: 1rem; /* 16px */
+  --font-size-m: 1.125rem; /* 18px */
+  --font-size-l: 1.25rem; /* 20px */
+  --font-size-xl: 1.875rem; /* 30px */
+  --font-size-xxl: 5rem; /* 80px */
+  --font-size-3xl: 5.625rem; /* 90px */
+}

@@ -1,0 +1,37 @@
+/* 1 - Settings */
+@import url(1-settings/_typography.css);
+@import url(1-settings/_variables.css);
+
+/* 2 - Tools */
+@import url(2-tools/_mixins.css);
+
+/* 3 - Generic */
+@import url(3-generic/_base.css);
+@import url(3-generic/_reset.css);
+
+/* 4 - Elements */
+@import url(4-elements/_forms.css);
+
+/* 5 - Objects */
+@import url(5-objects/_container.css);
+@import url(5-objects/_grid.css);
+
+/* 6 - components */
+@import url(6-components/_button.css);
+@import url(6-components/_card.css);
+@import url(6-components/_navbar.css);
+
+/* 7 - sections */
+@import url(7-sections/_hero.css);
+@import url(7-sections/_about.css);
+@import url(7-sections/_services.css);
+@import url(7-sections/_gallery.css);
+@import url(7-sections/_feedback.css);
+@import url(7-sections/_contact.css);
+@import url(7-sections/_hero.css);
+
+/* 8 - Utilities */
+@import url(8-utilities/_colors.css);
+@import url(8-utilities/_flexbox.css);
+@import url(8-utilities/_helpers.css);
+@import url(8-utilities/_spacing.css);

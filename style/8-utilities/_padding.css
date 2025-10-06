@@ -1,0 +1,199 @@
+/* ==========================================================================
+   #PADDING
+   ========================================================================== */
+
+/**
+ * Regras de padding utilitárias.
+ *
+ * p   -> padding
+ * pt  -> padding-top
+ * pr  -> padding-right
+ * pb  -> padding-bottom
+ * pl  -> padding-left
+ * px  -> padding no eixo x (left & right)
+ * py  -> padding no eixo y (top & bottom)
+ *
+ * Escala:
+ * xxs: 10px
+ * xs:  20px
+ * s:   30px
+ * m:   40px
+ * l:   50px
+ * xl:  60px
+ * xxl: 70px
+ */
+
+/* --- Padding (All sides) --- */
+.p-xxs {
+  padding: 10px !important;
+}
+.p-xs {
+  padding: 20px !important;
+}
+.p-s {
+  padding: 30px !important;
+}
+.p-m {
+  padding: 40px !important;
+}
+.p-l {
+  padding: 50px !important;
+}
+.p-xl {
+  padding: 60px !important;
+}
+.p-xxl {
+  padding: 70px !important;
+}
+
+/* --- Padding Top --- */
+.pt-xxs {
+  padding-top: 10px !important;
+}
+.pt-xs {
+  padding-top: 20px !important;
+}
+.pt-s {
+  padding-top: 30px !important;
+}
+.pt-m {
+  padding-top: 40px !important;
+}
+.pt-l {
+  padding-top: 50px !important;
+}
+.pt-xl {
+  padding-top: 60px !important;
+}
+.pt-xxl {
+  padding-top: 70px !important;
+}
+
+/* --- Padding Right --- */
+.pr-xxs {
+  padding-right: 10px !important;
+}
+.pr-xs {
+  padding-right: 20px !important;
+}
+.pr-s {
+  padding-right: 30px !important;
+}
+.pr-m {
+  padding-right: 40px !important;
+}
+.pr-l {
+  padding-right: 50px !important;
+}
+.pr-xl {
+  padding-right: 60px !important;
+}
+.pr-xxl {
+  padding-right: 70px !important;
+}
+
+/* --- Padding Bottom --- */
+.pb-xxs {
+  padding-bottom: 10px !important;
+}
+.pb-xs {
+  padding-bottom: 20px !important;
+}
+.pb-s {
+  padding-bottom: 30px !important;
+}
+.pb-m {
+  padding-bottom: 40px !important;
+}
+.pb-l {
+  padding-bottom: 50px !important;
+}
+.pb-xl {
+  padding-bottom: 60px !important;
+}
+.pb-xxl {
+  padding-bottom: 70px !important;
+}
+
+/* --- Padding Left --- */
+.pl-xxs {
+  padding-left: 10px !important;
+}
+.pl-xs {
+  padding-left: 20px !important;
+}
+.pl-s {
+  padding-left: 30px !important;
+}
+.pl-m {
+  padding-left: 40px !important;
+}
+.pl-l {
+  padding-left: 50px !important;
+}
+.pl-xl {
+  padding-left: 60px !important;
+}
+.pl-xxl {
+  padding-left: 70px !important;
+}
+
+/* --- Padding X-Axis --- */
+.px-xxs {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.px-xs {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.px-s {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.px-m {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+.px-l {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.px-xl {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+.px-xxl {
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+}
+
+/* --- Padding Y-Axis --- */
+.py-xxs {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.py-xs {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.py-s {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.py-m {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+.py-l {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.py-xl {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+.py-xxl {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}

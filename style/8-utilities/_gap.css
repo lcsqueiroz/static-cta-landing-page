@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #GAP
+   ========================================================================== */
+
+/**
+ * Regras de gap utilitárias para Flexbox e Grid.
+ *
+ * Escala:
+ * xxs: 10px
+ * xs:  20px
+ * s:   30px
+ * m:   40px
+ * l:   50px
+ * xl:  60px
+ * xxl: 70px
+ */
+
+.gap-xxs {
+  gap: 10px !important;
+}
+.gap-xs {
+  gap: 20px !important;
+}
+.gap-s {
+  gap: 30px !important;
+}
+.gap-m {
+  gap: 40px !important;
+}
+.gap-l {
+  gap: 50px !important;
+}
+.gap-xl {
+  gap: 60px !important;
+}
+.gap-xxl {
+  gap: 70px !important;
+}

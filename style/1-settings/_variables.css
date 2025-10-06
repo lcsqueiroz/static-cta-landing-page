@@ -7,9 +7,10 @@
   /* TEXTO */
   --color-text-primary: #f0f0f0;
   --color-text-secundary: #d2d2d2;
-
+  --color-text-contrast: #ebd16d;
   /* BACKGROUND */
   --color-background-primary: #191919;
+  --color-background-secundary: #141414;
 
   /* FONT SIZE */
   --font-size-xs: 0.75rem; /* 12px */

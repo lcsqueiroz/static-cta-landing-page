@@ -7,7 +7,7 @@
   padding: 15px 30px;
   border-radius: 10px;
   text-decoration: none;
-  color: var(--color-text-primary);
+  color: var(--color-text-contrast);
   transition: transform 0.3s ease;
 }
 
@@ -18,8 +18,8 @@
 .button-gradient {
   border: 1px solid transparent;
   background: linear-gradient(
-        var(--color-background-primary),
-        var(--color-background-primary)
+        var(--color-background-secundary),
+        var(--color-background-secundary)
       )
       padding-box,
     var(--border-gradient) border-box;

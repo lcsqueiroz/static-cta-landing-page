@@ -1,6 +1,6 @@
 .header {
   height: 100px;
-  background-color: #131313;
+  background-color: var(--color-background-secundary);
   display: flex;
 }
 .header__container {

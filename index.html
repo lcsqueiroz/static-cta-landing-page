@@ -30,6 +30,15 @@
   <!-- Favicon -->
   <link rel="icon" href="assets/images/logo/Logo.svg" type="image/svg+xml">
 
+  <!-- Preload de Font -->
+  <link rel="preload" href="assets/fonts/Luxia-Display.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/Luxia-Regular.woff" as="font" type="font/woff" crossorigin>
+
+  <!-- Font POPPINS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <!-- Estilos e Scripts -->
   <link rel="stylesheet" href="style/main.css">
   <script src="src/js/main.js" defer></script>
@@ -37,16 +46,28 @@
 
 <body>
 
-  <header class="header">
-    <!-- A navbar pode ser inserida aqui -->
+  <header class="header py-xxs">
+    <div class="header__container container">
+      <img class="header__logo" src="assets/images/logo/Logo.svg" alt="logo marca da empresa" width="100px">
+      <nav class="header__nav">
+        <ul class="header__nav-list gap-l">
+          <li class="header__nav-item"><a href="#">Home</a></li>
+          <li class="header__nav-item"><a href="#">Sobre</a></li>
+          <li class="header__nav-item"><a href="#">Serviços</a></li>
+          <li class="header__nav-item"><a href="#">Trabalhos</a></li>
+          <li class="header__nav-item"><a href="#">Avaliações</a></li>
+        </ul>
+      </nav>
+      <a class="header__cta-button" href="#">Agendar Serviços</a>
+    </div>
   </header>
 
   <main>
     <!-- Seção Hero -->
     <section id="inicio" class="hero">
       <div class="container">
-        <h1>Transforme seu olhar com a extensão de cílios perfeita para você</h1>
-        <p>Realce sua beleza com técnicas seguras e personalizadas.</p>
+        <h1 class="text-gradient text-3xl">Nome Empresa</h1>
+        <p></p>
         <a href="#contato" class="button button--primary">Agende seu horário</a>
       </div>
     </section>

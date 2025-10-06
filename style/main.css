@@ -19,7 +19,7 @@
 /* 6 - components */
 @import url(6-components/_button.css);
 @import url(6-components/_card.css);
-@import url(6-components/_navbar.css);
+@import url(6-components/_text.css);
 
 /* 7 - sections */
 @import url(7-sections/_header.css);

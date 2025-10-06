@@ -1,0 +1,26 @@
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--color-text-primary);
+  transition: transform 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button-gradient {
+  border: 1px solid transparent;
+  background: linear-gradient(
+        var(--color-background-primary),
+        var(--color-background-primary)
+      )
+      padding-box,
+    var(--border-gradient) border-box;
+}

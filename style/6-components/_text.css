@@ -1,0 +1,10 @@
+/*------------------------------------*\
+  #TEXT
+\*------------------------------------*/
+
+.text-gradient {
+  background: var(--color-text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

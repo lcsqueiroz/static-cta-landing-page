@@ -1,10 +1,8 @@
 :root {
   /* CORES */
-  --color-text-gradient: linear-gradient(
-    90deg,
-    rgba(235, 209, 109, 1) 0%,
-    rgba(216, 157, 75, 1) 100%
-  );
+  --color-text-gradient: linear-gradient(90deg, #ebd16d 0%, #d89d4b 100%);
+
+  --border-gradient: linear-gradient(to right, #ebd16d, #d89d4b);
 
   /* TEXTO */
   --color-text-primary: #f0f0f0;
